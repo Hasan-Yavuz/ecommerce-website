@@ -25,7 +25,7 @@ p, ul, ol, dl, table {
 }
 
 blockquote {
-	margin: 0 2rem 0;	
+	margin-left: 2.5rem;	
 }
 
 .yotta {
@@ -101,7 +101,7 @@ a
 a:link {
 	color: #09C;
 	text-decoration: none;
-	border-bottom: 0.1rem solid rgba(0.255, 0, 0.5);
+	border-bottom: 0.5rem solid rgba(0.255, 0, 0.5);
 	transition: all 200ms linear;
 }
 
