@@ -13,9 +13,12 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl,
-blockquote, table, hr {
+p, ul, ol, dl, table {
   margin: 0 0 1.5rem;
+}
+
+blockquote {
+	margin: 0 2rem 0;	
 }
 
 .yotta {
@@ -69,33 +72,33 @@ small, .milli {
 }
 
 h1, h2, h3, h4, h5, h6,
-.brand{
+.brand {
 	color: #009;
 	font-family: Roboto, sans-serif;
 }
 
-.brand-family{
+.brand-family {
 	color: #009;
 }
 
-.brand-color{
+.brand-color {
 	color: #009;
 }
 
-::selection{
+::selection {
 	background-color: #009;
 	color: #fff;
 }
 
 a
-a:link{
+a:link {
 	color: #09C;
 	text-decoration: none;
 	border-bottom: 0.1rem solid rgba(0.255, 0, 0.5);
 	transition: all 200ms linear;
 }
 
-a:visited{
+a:visited {
 	color: #09C;
 	border-bottom-color: rgba(50, 150, 50, 0.5)	
 }
@@ -106,19 +109,37 @@ a:active{
 	color: #0CC;
 }
 
-ul{
+ul {
 	list-style-type: none;
 }
 
-ul li{
+ul li {
 	position: relative;
 }
 
-ul li:before{
+ul li:before {
 	content: "➔";
 	color: #666;
 	position: absolute;
 	left: -1.2em
+}
+
+hr {
+	border-top: 3px dotted #666;
+  	color: #666;
+ 	background-color: #fff;
+  	height: 3px;
+ 	width:100%;
+}
+
+.fade {
+  border-width: 0 0 1px;
+  border-image: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0.5) 50%,
+    hsla(0, 0%, 100%, 0) 100%) 0 0 100%;
+  border-style: solid;
 }
 
 td {
