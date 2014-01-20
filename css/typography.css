@@ -12,6 +12,12 @@ html {
   font: normal 100%/1.5 Roboto, sans-serif; /* 16px/24px */
 }
 
+body {
+      margin: 0 auto;
+      padding: 0;
+      max-width: 45rem;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, table {
   margin: 0 0 1.5rem;
@@ -124,22 +130,14 @@ ul li:before {
 	left: -1.2em
 }
 
-hr {
-	border-top: 3px dotted #666;
-  	color: #666;
- 	background-color: #fff;
-  	height: 3px;
- 	width:100%;
-}
-
 .fade {
-  border-width: 0 0 1px;
-  border-image: linear-gradient(
-    90deg,
-    hsla(0, 0%, 100%, 0),
-    hsla(0, 0%, 100%, 0.5) 50%,
-    hsla(0, 0%, 100%, 0) 100%) 0 0 100%;
-  border-style: solid;
+	display:block;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
 
 td {
