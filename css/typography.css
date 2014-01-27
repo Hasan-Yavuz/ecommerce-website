@@ -3,6 +3,7 @@
   - Dark Blue: #009 - rgb(0,0,153)
   - Teal: #09C - rgb(0,153,204)
   - Neon Teal: #0CC - rgb(0,204,204)
+  - Light Neon: #0FC - rgb
   - Grey: #666 - rgb(102,102,102)
  */
 @charset "UTF-8";
@@ -10,6 +11,7 @@
 
 html {
   font: normal 100%/1.5 Roboto, sans-serif; /* 16px/24px */
+  background-color: #FAFAFA;
 }
 
 body {
@@ -97,23 +99,24 @@ h1, h2, h3, h4, h5, h6,
 	color: #fff;
 }
 
-a
+a,
 a:link {
 	color: #09C;
 	text-decoration: none;
-	border-bottom: 0.5rem solid rgba(0.255, 0, 0.5);
+	border-bottom: 0.1rem solid rgba(0,255,204, 0.5);
 	transition: all 200ms linear;
 }
 
 a:visited {
-	color: #09C;
-	border-bottom-color: rgba(50, 150, 50, 0.5)	
+	color: #666;
+	border-bottom-color: rgba(102,102,102, 0.5)	
 }
 
 a:hover,
 a:focus,
 a:active{
 	color: #0CC;
+	border-bottom-color: #09C;
 }
 
 ul {
