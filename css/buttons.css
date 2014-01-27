@@ -51,6 +51,8 @@
 }
 
 .btn-alt,
-.btn:hover {
+.btn:hover,
+.btn-2-alt,
+.btn-2:hover {
 	opacity: .8;
 }
