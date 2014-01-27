@@ -1,8 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+.list-group {
+	list-style-type: none;
+}
+
+.list-group-item:before {
+	content:"";
+
+}
+
+.list-group-item {
+	display: block;
+}
+
+.list-group-item-inline {
+	display: block;
+}
+
 .product {
-	background-color: eae8e1;
-	padding: 1rem;
-	bolder-radius: 6px;	
+	background-color: rgba(243,237,185,0.5);
+	padding: 1em;
+	border-radius: 10px;
 }
