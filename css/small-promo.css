@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
+.product-small {
+	width: 50%;
+	background-color: #fff;
+	border: solid 2px black;
+}
