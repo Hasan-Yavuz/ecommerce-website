@@ -54,11 +54,3 @@ p:last-child {
 	background-color: #FFF;
 	padding: 3rem 10.5%;
 }
-
-/* --------------------------------------------------------------------- Footer */
-
-.bottom {
-	background-color:#F0F;
-	height: 4.5rem;
-	margin-bottom: 1.5rem
-}
