@@ -15,7 +15,8 @@
 	height: 7rem;
 	margin-top: 1.5rem;
 	width: 100%;
-	background-color: #CCC;
+	background-color: FAFAFA;
+	background-image: url(../assets/light_noise_diagonal.png);
 }
 
 .logo {
