@@ -31,10 +31,16 @@ p:last-child {
 /* --------------------------------------------------------------------- Masthead */
 
 .masthead {
-	background-color:#F0F;
+	background-color:#999;
 	height: 4.5rem;
 	margin-top: 1.5rem;
 }
+
+.logo {
+	width: 20%;
+	float: left;
+}
+
 
 /* --------------------------------------------------------------------- Billboard */
 
