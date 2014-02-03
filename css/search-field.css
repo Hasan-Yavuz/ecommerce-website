@@ -12,7 +12,7 @@
 
 .cf:before, .cf:after{
     content:"";
-    display:table;
+    display: table;
 }
  
 .cf:after{
@@ -21,6 +21,8 @@
  
 .cf{
     zoom:1;
+	float: right;
+	position: relative;
 }    
 
  /* Form wrapper styling */
