@@ -11,6 +11,7 @@
 
 .list-group-item {
 	display: block;
+	content: "•";
 }
 
 .list-group-item-inline {

@@ -121,10 +121,12 @@ a:active{
 
 ul {
 	list-style-type: none;
+	content: "•";
 }
 
 ul li {
 	position: relative;
+	content: "•";
 }
 
 ul li:before {
