@@ -15,6 +15,7 @@
 	height: 7rem;
 	margin-top: 1.5rem;
 	width: 100%;
+	background-color: #CCC;
 }
 
 .logo {
@@ -25,4 +26,5 @@
 .nav {
 	display: inline;
 	position: inherit;
+	float: none;
 }
