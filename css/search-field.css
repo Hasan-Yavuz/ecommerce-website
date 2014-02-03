@@ -22,7 +22,7 @@
 .cf{
     zoom:1;
 	float: right;
-	position: relative;
+	position: inherit;
 }    
 
  /* Form wrapper styling */
