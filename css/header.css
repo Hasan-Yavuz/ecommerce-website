@@ -25,7 +25,16 @@
 }
 
 .nav {
+	overflow: hidden;
 	display: inline;
 	position: inherit;
+	background-color: #009;
+}
+
+.nav li{
+	display: inline-block;
 	float: none;
+	margin: 2rem;
+	width:auto;
+	content: "";
 }
