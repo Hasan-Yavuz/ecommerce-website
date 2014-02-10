@@ -27,6 +27,7 @@ input[type=search] {
 	box-shadow: none;
 	padding: 1rem;
 	font-family: 'Roboto', sans-serif;
+	background-color: #FFF;
 }
 
 ::-webkit-input-placeholder {
@@ -39,4 +40,16 @@ input[type=search] {
 
 ::-ms-input-placeholder {
 	color: #333031;
-}	
+}
+
+.search-button {
+	content: url(../images/search-icon.svg);
+	color: #fff;
+	position: absolute;
+	display: inline-block;
+	height: 100%;
+	width: 3rem;
+	right: 0;
+	top: 0;
+	background-color: #009;
+}
