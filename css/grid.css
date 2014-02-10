@@ -6,6 +6,7 @@
 .unit {
 	float: left;
 	background-color: #fff;
+	overflow: hidden;
 }
 
 .unit-s-1 {
