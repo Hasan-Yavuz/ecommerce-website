@@ -12,25 +12,25 @@
 
 
 .masthead {
-	height: 7rem;
+	height: 30rem;
 	margin-top: 1.5rem;
 	width: 100%;
-	background-color: FAFAFA;
-	background-image: url(../assets/light_noise_diagonal.png);
+	background-color: #F0F0F0;
 }
 
 .logo {
-	width: 15%;
+	width: 20%;
 	float: left;
+	margin-top: 0.5rem;
 }
 
 .nav {
 	overflow: hidden;
-	display: inline;
-	position: inherit;
-	background-color: #009;
+	display: inline-block;
+	background-color: F0F0F0;
 }
 
 .nav li{
 	margin: 2rem;
+	display: inline-block;
 }
