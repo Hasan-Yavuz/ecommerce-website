@@ -1,11 +1,9 @@
 .grid {
-	border: 1px solid red;
 	overflow: hidden;
 }
 
 .unit {
 	float: left;
-	background-color: #fff;
 	overflow: hidden;
 }
 

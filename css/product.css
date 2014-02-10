@@ -25,7 +25,9 @@
 }
 
 .list-group-item-inline {
-	display: block;
+	display: inline-block;
+	margin-top: 3rem;
+	padding: 1rem;
 }
 
 .product {
