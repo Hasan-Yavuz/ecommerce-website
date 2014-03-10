@@ -22,3 +22,7 @@ header {
 nav ul li {
 	padding: 1rem;
 }
+
+.current {
+  opacity: 0.5;
+}
