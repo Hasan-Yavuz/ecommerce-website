@@ -1,11 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.bottom {
+footer {
 	background-color:#F0F0F0;
-	height: 14rem;
 	width: 100%;
 	color: #000;
+	overflow: hidden;
+	padding-bottom: 1rem;
 }
 
 .hide-text {
@@ -27,13 +28,13 @@
 	padding-top: 1rem;
 	border-radius: 50%;
 	background-color: #009;
-	
+
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
-	
+
 	color: #fff;
 }
 
