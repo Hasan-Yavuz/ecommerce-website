@@ -1,6 +1,6 @@
 ---
 layout: default
-category: shirts
+category: category
 title: Shirts
 showbanner: yes
 bannertext: Shirts
@@ -8,9 +8,7 @@ meta: Shop graphic shirts
 ---
 
 <div class= "grid">
-	<p class= "unit unit-s-1 unit-m-1 unit-l-1">
-		Shop Shirts
-	</p>
+	<p class= "unit unit-s-1 unit-m-1 unit-l-1">Shop Shirts</p>
 
 	<ul>
 		{% for products in site.pages %}
@@ -20,4 +18,7 @@ meta: Shop graphic shirts
 					{{products.name}}
 				</a>
 			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
 </div>

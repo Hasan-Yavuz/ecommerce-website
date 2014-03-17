@@ -7,17 +7,18 @@ meta: "Shop graphic shirts and sweaters"
 ---
 
 <div class= "grid">
-	<p class= "unit unit-s-1 unit-m-1 unit-l-1">
-		Shop by category
-	</p>
+	<p class= "unit unit-s-1 unit-m-1 unit-l-1">Shop by category</p>
 
 	<ul>
 		{% for products in site.pages %}
 			{% if products.category == 'category' %}
 			<li>
 				<a href="{{site.baseurl}}{{products.url}}">
-					{{products.name}}
+					{{products.title}}
 				</a>
 			</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
 </div>
 
