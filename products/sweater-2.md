@@ -1,6 +1,6 @@
 ---
 layout: default
-category: shirts
+category: sweaters
 size: Medium
 colour: White
 price: 19.99
