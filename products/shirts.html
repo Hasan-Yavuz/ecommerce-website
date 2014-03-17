@@ -1,23 +1,23 @@
 ---
 layout: default
-title: Shop
+category: shirts
+title: Shirts
 showbanner: yes
-bannertext: Shop
-meta: "Shop graphic shirts and sweaters"
+bannertext: Shirts
+meta: Shop graphic shirts
 ---
 
 <div class= "grid">
 	<p class= "unit unit-s-1 unit-m-1 unit-l-1">
-		Shop by category
+		Shop Shirts
 	</p>
 
 	<ul>
 		{% for products in site.pages %}
-			{% if products.category == 'category' %}
+			{% if products.category == 'shirts' %}
 			<li>
 				<a href="{{site.baseurl}}{{products.url}}">
 					{{products.name}}
 				</a>
 			</li>
 </div>
-
