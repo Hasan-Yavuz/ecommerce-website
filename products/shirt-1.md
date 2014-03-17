@@ -1,19 +1,25 @@
 ---
-layout: default
+layout: products
 category: shirts
 size: Medium
 colour: White
-price: 19.99
-image:
-name: Wicked Tee
+price: 14.99
+image: shirt-1.jpg
+name: Lion King
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat arcu nisl, et viverra augue tristique eget. Donec justo sapien, sodales a velit fermentum, malesuada laoreet ligula. In tempor turpis mauris, at molestie ipsum mattis eget. Proin pulvinar, mi vitae ullamcorper elementum, est arcu semper metus, quis semper lacus eros.
+Roar through the streets with this overpowering t-shirt design.
 
-- Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
+## Colours
 
-1. Lorem ipsum dolor sit amet
-2. Lorem ipsum dolor sit amet
-3. Lorem ipsum dolor sit amet
+- White
+- Black
+- Beige
+- Red
+
+## Sizes
+
+- Small
+- Medium
+- Large
+- X-Large

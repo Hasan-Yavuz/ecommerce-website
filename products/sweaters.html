@@ -9,7 +9,7 @@ meta: Shop graphic sweaters
 
 <div class= "grid">
 	<p class= "unit unit-s-1 unit-m-1 unit-l-1">
-		Shop Sweaters
+	Shop Sweaters
 	</p>
 
 	<ul>
@@ -17,6 +17,7 @@ meta: Shop graphic sweaters
 			{% if products.category == 'sweaters' %}
 			<li>
 				<a href="{{site.baseurl}}{{products.url}}">
+				<img class= "unit unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}/images/{{products.image}}">
 					{{products.name}}
 				</a>
 			</li>
