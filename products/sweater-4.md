@@ -1,8 +1,8 @@
 ---
 layout: products
 category: sweaters
-size: Medium
-colour: White
+size: Small, Medium, Large, X-Large
+colour: White, Black, Brown
 price: 19.99
 image: sweater-4.jpg
 name: Elephant

@@ -1,8 +1,8 @@
 ---
 layout: products
 category: shirts
-size: Medium
-colour: White
+size: X-Small, Small, Medium, Large, X-Large
+colour: White, Black, Navy, Beige
 price: 17.99
 image: shirt-4.jpg
 name: Crystaline

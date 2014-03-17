@@ -1,8 +1,8 @@
 ---
 layout: products
 category: shirts
-size: Medium
-colour: White
+size: Small, Medium, Large, X-Large
+colour: White, Black, Grey, Green, Red
 price: 17.99
 image: shirt-3.jpg
 name: Joker

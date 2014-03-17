@@ -1,8 +1,8 @@
 ---
 layout: products
 category: sweaters
-size: Medium
-colour: White
+size: X-Small, Small, Medium, Large, X-Large
+colour: White, Black, Navy, Red, Beige
 price: 19.99
 image: sweater-5.jpg
 name: Pikachu
