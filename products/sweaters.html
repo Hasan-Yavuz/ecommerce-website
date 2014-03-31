@@ -7,17 +7,17 @@ bannertext: Sweaters
 meta: Shop graphic sweaters
 ---
 
-<div class= "grid">
-	<p class= "unit unit-s-1 unit-m-1 unit-l-1">
+<div>
+	<p>
 	Shop Sweaters
 	</p>
 
-	<ul>
+	<ul class="grid">
 		{% for products in site.pages %}
 			{% if products.category == 'sweaters' %}
-			<li>
+			<li class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
 				<a href="{{site.baseurl}}{{products.url}}">
-				<img class= "unit unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}/images/{{products.image}}">
+					<img src="{{site.baseurl}}/images/{{products.image}}" class="img-flex">
 					{{products.name}}
 				</a>
 			</li>

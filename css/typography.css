@@ -201,7 +201,6 @@ ul li {
 }
 
 ul li:before {
-	content: "➔";
 	color: #666;
 	position: absolute;
 	left: -1.2em

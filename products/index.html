@@ -6,13 +6,13 @@ bannertext: Shop
 meta: "Shop graphic shirts and sweaters"
 ---
 
-<div class= "grid">
-	<p class= "unit unit-s-1 unit-m-1-2 unit-l-1-3">Shop by category</p>
+<div>
+	<p>Shop by category</p>
 
-	<ul>
+	<ul class="grid">
 		{% for products in site.pages %}
 			{% if products.category == 'category' %}
-			<li>
+			<li class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
 				<a href="{{site.baseurl}}{{products.url}}">
 					{{products.title}}
 				</a>

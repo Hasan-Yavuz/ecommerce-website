@@ -2,12 +2,12 @@
 layout: default
 showbanner: yes
 bannertext: Cart
-category: shirts
 size: X-Small, Small, Medium, Large, X-Large
 colour: White, Black, Grey, Navy, Red
 price: 17.99
 image: shirt-2.jpg
 name: Poke-death
+meta: "GT's Cart"
 ---
 
 <a href= "{{site.baseurl}}/products/{{page.category}}">Return to Category</a>
@@ -15,7 +15,7 @@ name: Poke-death
 <h1>{{page.name}}</h1>
 
 	<div class="grid">
-		<img class="unit unit-s-1-2 unit-m-1-4 unit-l-1-5 flex-img" src="{{site.baseurl}}/images/{{page.image}}">
+		<img class="unit unit-s-1-2 unit-m-1-4 unit-l-1-5 img-flex" src="{{site.baseurl}}/images/{{page.image}}">
 		<div class="unit unit-s-1-2 unit-m-1-4 unit-l-1-5">
 				{{content}}
 		</div>
@@ -28,5 +28,5 @@ name: Poke-death
 			<dd>{{page.price}}</dd>
 		</dl>
 
-			<a class="btn" href="{{site.baseurl}}/thank-you/">Buy Now</a>
+			<a class="btn" href="{{site.baseurl}}/thank-you/">Checkout</a>
 	</div>
