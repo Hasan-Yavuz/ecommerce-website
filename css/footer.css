@@ -27,7 +27,7 @@ footer {
 	text-align: center;
 	padding-top: 1rem;
 	border-radius: 50%;
-	background-color: #009;
+	background-color: #b10000;
 
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -45,12 +45,12 @@ footer {
 .social li a:hover,
 .social li a:active,
 .social li a:focus {
-	color: #0CF;
+	color: #000;
 	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
 	-moz-box-shadow: inset 0px 0px 0px 3x #222;
 	-ms-box-shadow: inset 0px 0px 0px 3px #222;
 	-o-box-shadow: inset 0px 0px 0px 3px #222;
-	box-shadow: inset 0px 0px 0px 3px #0CF;
+	box-shadow: inset 0px 0px 0px 3px #000;
 }
 
 .copyright {

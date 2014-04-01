@@ -172,9 +172,9 @@ h1, h2, h3, h4, h5, h6,
 
 a,
 a:link {
-	color: #09C;
+	color: #666;
 	text-decoration: none;
-	border-bottom: 0.1rem solid rgba(0,255,204, 0.5);
+	border-bottom: none;
 	transition: all 200ms linear;
 }
 
@@ -186,7 +186,7 @@ a:visited {
 a:hover,
 a:active{
 	color: #d80000;
-	border-bottom-color: #09C;
+	border-bottom-color: #f00;
     outline: none;
 }
 
@@ -250,5 +250,5 @@ cite {
 }
 
 mark {
-	background-color: #0CC;
+	background-color: #f00;
 }

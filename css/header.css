@@ -15,11 +15,12 @@ header {
 }
 
 .logo {
-	width: 50%;
+	width: 70%;
 }
 
 nav ul li {
 	padding: 1rem;
+    text-decoration: none;
 }
 
 .current {
