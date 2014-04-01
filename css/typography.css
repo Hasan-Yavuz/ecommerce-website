@@ -184,10 +184,14 @@ a:visited {
 }
 
 a:hover,
-a:focus,
 a:active{
 	color: #0CC;
 	border-bottom-color: #09C;
+    outline: none;
+}
+
+a:focus{
+    outline: 3px solid #000;
 }
 
 ul {
