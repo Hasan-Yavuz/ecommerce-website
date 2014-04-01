@@ -81,7 +81,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-	color: #009;
+	color: #000;
 	font-family: Roboto, sans-serif;
 }
 
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 ::selection {
-	background-color: #009;
+	background-color: #666;
 	color: #fff;
 }
 
@@ -185,7 +185,7 @@ a:visited {
 
 a:hover,
 a:active{
-	color: #0CC;
+	color: #d80000;
 	border-bottom-color: #09C;
     outline: none;
 }
