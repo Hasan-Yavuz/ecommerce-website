@@ -1,6 +1,6 @@
 # User Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by Hasan Yavuz on March 24, 2014 between the times of 4:30pm and 5:30pm with the following participants:
 
 - {Evan Grice}
 - {Daniela Chavez}
@@ -44,5 +44,5 @@ User testing was conducted by {your name} on {specific date} between the times o
 ### Minor, Annoying, Won’t Hinder Completion
 
 - Make home page look more fancy
-- Changed banners
+- Change banners
 - Style to make layout look better
