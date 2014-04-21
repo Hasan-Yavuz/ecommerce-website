@@ -5,6 +5,8 @@
 .unit {
 	float: left;
 	overflow: hidden;
+    display: block;
+    position: relative;
 }
 
 .unit-s-1 {
