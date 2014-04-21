@@ -4,3 +4,7 @@
 .overview {
 	float: none;
 }
+
+img {
+ padding: 0.5rem;
+}
