@@ -1,0 +1,16 @@
+/* TEAM */
+
+Designer & Developer: Hasan Yavuz
+Email: yavuz0003@algonquinlive.com
+Location: Ottawa, Canada
+
+
+/* THANKS */
+
+Thanks to Tiffany Tse for teaching me how to code.
+
+/* SITE */
+Last update: 2014/04/21
+Standards: HTML5, CSS3
+Components: Modernizr, Jquery, etc...
+Software: Adobe, Livereload, Brackets
